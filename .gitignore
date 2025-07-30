@@ -1,0 +1,103 @@
+## Build and Publish folders
+bin/
+obj/
+out/
+artifacts/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## VS Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Visual Studio settings
+.vs/
+*.csproj.user
+
+## Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+project.json
+project.json.lock
+*.dbmdl
+*.bak
+*.log
+
+# ASP.NET Core
+appsettings.*.json
+appsettings.Local.json
+secrets.json
+
+## Docker artifacts
+**/Dockerfile.*
+docker-compose.*
+docker-compose.*.yml
+.docker/
+
+## Ignore environment-specific files
+.env
+.env.*
+
+## OS generated files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+Icon?
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Uncomment if using package restore outside of Visual Studio
+# !packages/build/
+# !packages/repositories.config
+
+## Logs
+*.log
+logs/
+log/
+
+## Database files
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Include Databases folder, but not binary files inside
+Databases/*
+!Databases/**/*.sql
+!Databases/**/*.md
+!Databases/**/*.txt
+!Databases/.gitkeep
+
+## Rider
+.idea/
+*.sln.iml
+
+## Others
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# JetBrains Rider and other IDE junk
+.idea/
+.idea_modules/
+*.iws
+*.ipr
+*.iml
